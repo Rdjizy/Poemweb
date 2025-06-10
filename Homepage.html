@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:wght@300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="panel">
+        <a id="homebtn" href="Homepage.html">Home</a>
+
+        <ul class="poem-list">
+            <li class="dropdown"> <a href="#poems" class="dropbtn">Poems</a> <ul class="dropdown-content"> <li><a href="#poem1">For my love</a></li>
+                    <li><a href="#poem2">February 11, 11:11</a></li>
+                    <li><a href="#poem3">Lavender</a></li>
+                </ul>
+            </li>
+        </ul>
+        </div>
+
+    <div class="content-area">
+        <div id="poem1" class="poem-display">
+            <h1 class="poem-title">For my love</h1>
+            <div class="poem-image-wrapper">
+                <img src="images/poem1-thumbnail.jpg" alt="Poem titled 'For my love'" class="poem-thumbnail">
+            </div>
+            <p class="poem-description">My first poem that is dedicated for you.</p>
+        </div>
+
+        <div id="poem2" class="poem-display">
+            <h1 class="poem-title">February 11, 11:11</h1>
+            <div class="poem-image-wrapper">
+                <img src="images/poem2-thumbnail.jpg" alt="Poem titled February 11, 11:11'" class="poem-thumbnail">
+            </div>
+            <p class="poem-description">When it all started</p>
+        </div>
+
+        <div id="poem3" class="poem-display">
+            <h1 class="poem-title">Lavender</h1>
+            <div class="poem-image-wrapper">
+                <img src="images/poem3-thumbnail.jpg" alt="Poem titled 'Lavender'" class="poem-thumbnail">
+            </div>
+            <p class="poem-description">PLACEHOLDER</p>
+        </div>
+
+    </div>
+
+    <div id="imageModal" class="modal">
+        <span class="close-button">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="modalCaption" class="modal-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
